@@ -49,3 +49,7 @@ The third week of the course introduced some basic commands for processing plain
 For example, this command would convert all uppercase letters to lowercase:
 
     $ tr “[:upper:]” “[:lower:]” 
+
+
+
+## Week 4

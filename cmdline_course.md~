@@ -30,7 +30,7 @@ I also learned how to inspect the contents of text files using **less**, how to 
 
 ## Week 2: Navigating a UNIX System
 
-This week had three main topics: more information on the UNIX file system, basic information about processes, and  working with remote servers. I learned how to copy and remove directories (since that is a bit different from copying and removing files!) using the -R option after commands, I took a tour around my /tmp, /usr, and /bin directories, and I learned a bit about processes (what are they actually?).
+This week had three main topics: more information on the UNIX file system, basic information about processes, and  working with remote servers. I learned how to copy and remove directories (since that is a bit different from copying and removing files!) using the **-R** option after commands, I took a tour around my /tmp, /usr, and /bin directories, and I learned a bit about processes (what are they actually?).
 
 I had already worked with a remote server one year ago, but now I was finally able to understand what it actually means. A year ago, I was working on the CSC remote server Taito, but it seemed a bit like black magic, since I had no idea what was really going on. Working with remote serves can be really helpful especially since laptop computers’ computing powers are no match to CSC’s super-computers efficacy. Connecting to remote servers through the command line is also very easy. For example, if I wanted to connect to basically unlimited computing superpower, I can simply type this to my terminal:
 
@@ -43,3 +43,9 @@ And that's it! Since my username for CSC is different from my username on my com
 which would connect me to the Puhti server. 
 
 ## Week 3: Basic Corpus Processing
+
+The third week of the course introduced some basic commands for processing plain text files and structured text files, i.e. tables. I learned how to create word lists from text files using commands like **sort** and **uniq**, and how to replace characters easily with **tr** (making removing punctuation or converting everything to lowercase a lot easier than working with Word). 
+
+For example, this command would convert all uppercase letters to lowercase:
+
+    $ tr “[:upper:]” “[:lower:]” 
