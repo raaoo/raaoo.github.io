@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+## Introduction
+
+On this page, I’ll give a short overview about the course _Command Line Tools for Linguists_, which I took in august term, 2019. The course aims to give a gentle and practical introduction to the UNIX command line environment for absolute beginners, like myself. In my studies, I have run into many kinds of programming and I have always felt like I understood nothing, even though I maybe should have. So, taking this course, I wanted to be able to have a basic literacy of UNIX commands, to complete simple, basic tasks myself, and to understand simple instructions when things go wrong. 
+
+I also thought that this course might give me some confidence in understanding and using Python and R, which I have found useful in some projects.
+
+Below I’ll summarize what I have learned and how I felt about it.
+
+## Week 1: Introduction to Command Line Environments
+
+The first week of the course concentrated, first of all, on getting to know what a command line is and how to set it up on the computer. In my case, the set-up was easy, since I’m working on MacOS – I simply needed to open up the Terminal and I was ready to go.<br>
+Secondly, I got to know some commands used for basic navigation, like **whoami, pwd, cd, mkdir, ls, rm**, and **mv**. In my opinion, these commands are a corner stone of working with the command line. In the autumn, I was also doing topic modelling with MALLET for another course, and knowing these commands helped me out a lot. Since MALLET is operated straight through the command line, making new directories and navigating between multiple directories was easy. I felt much more confident in working with MALLET since I knew how to navigate my environment.
+
+For example, I needed to create a new directory for my own data which I used in the topic modelling. The process was a bit like this:
+
+    $ pwd      	      	
+    ~/mallet-2.0.8
+    $ mkdir mydata
+    $ cd mydata
+    $ pwd		
+    ~/mallet-2.0.8/mydata
+
+By these commands, I could first check my current working directory, then create a new directory, change to that directory, and check again that I'm where I want to be. The command **pwd** was really handy, since all MALLET commands need to be run from the mallet-directory and not from any of its sub-directories!
+
+I also learned how to inspect the contents of text files using **less**, how to fetch contents from the web using **wget**, and how to use the text editor **emacs**, which I'm actually using to write the contents for this page.
+
+## Week 2: Navigating a UNIX System
+
+This week had three main topics: more information on the UNIX file system, basic information about processes, and  working with remote servers. I learned how to copy and remove directories (since that is a bit different from copying and removing files!) using the -R option after commands, I took a tour around my /tmp, /usr, and /bin directories, and I learned a bit about processes (what are they actually?).
+
+I had already worked with a remote server one year ago, but now I was finally able to understand what it actually means. A year ago, I was working on the CSC remote server Taito, but it seemed a bit like black magic, since I had no idea what was really going on. Working with remote serves can be really helpful especially since laptop computers’ computing powers are no match to CSC’s super-computers efficacy. Connecting to remote servers through the command line is also very easy. For example, if I wanted to connect to basically unlimited computing superpower, I can simply type this to my terminal:
+
+    $ ssh <myCSCusername>@puhti.csc.fi
+
+And that's it! Since my username for CSC is different from my username on my computer, I have to specify it. If they were the same, I could simply type:
+
+    $ ssh puhti.csc.fi
+
+which would connect me to the Puhti server. 
+
+## Week 3: Basic Corpus Processing
