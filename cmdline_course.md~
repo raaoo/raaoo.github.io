@@ -142,10 +142,19 @@ The command **git branch** creates a new branch with a desired name, and the com
 
 The first command switches back to the master branch, and the second command merges the two branches, so that my new changes are also in the master branch.
 
-In my opinion, working with Git and GitHub was fun, and quite soon it already turned out to be very useful. I actually had to create a GitHub repository for the topic modelling project I mentioned earlier. At the moment, I have three GitHub repositories.
+In my opinion, working with Git and GitHub was fun, and quite soon it already turned out to be very useful. I actually had to create a GitHub repository for the topic modelling project I mentioned earlier. At the moment, I have three GitHub repositories:
 
-![Repos](https://github.com/raaoo/raaoo.github.io/cmdline-course/assets/img/repos.jpg )
+![Repos]
 
+[Repos]: https://github.com/raaoo/raaoo.github.io/blob/cmdline-course/assets/img/repos.jpg?raw=true
 
 
 ## Final Assignment: Building Webpages using GitHub Pages
+
+For the final assignment, I had to create this webpage using GitHub Pages. The page is based on a repository on GitHub. I also learned to use Jekyll to preview how my page looks without pushing every single small change to GitHub. This could be done with the command
+
+    $ bundle exec jekyll serve 
+
+This gave me a URL where I could see how my page looked after the most recent changes. 
+
+This assignment also involved learning markdown, which was quite intuitive for me, since I have dabbled (superficially) in HTML and BBCode formatting before. I enjoyed this exercise. Maybe I could use this page as a portfolio or something like that in the future, now that I know the basics and already have a good template!
