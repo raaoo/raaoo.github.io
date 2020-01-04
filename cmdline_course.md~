@@ -124,7 +124,25 @@ once again. These commands install NLTK ([Natural Language Toolkit](https://www.
 
 In addition these commands, I had also already used **brew** to install software. However, the concept of root user and commands related to that (e.g. **su**, **sudo**) were new to me, as was the concept of a Makefile and the process of creating one myself.
 
+Makefiles turned out to be the problem for me during this week (in addition to some Mac-specific problems with some software…). I think this was mostly due to me struggling with scripting the previous week, so I felt like I didn’t quite grasp the fundamentals. I think I still need a lot more practice in this area.
+
 ## Week 7: Version Control
+
+The final week of the course concentrated on version control, in short, managing changes when developing eg. code, web sites, or other projects. I got to learn about Git, how to use it through my command line, and how it interacts with GitHub. GitHub was of course a website I had run into before, since every time I had googled something related to programming, I almost always encountered a link leading to GitHub. However, I had no idea I could upload files to GitHub using command line. I also didn’t know about branches. Branches can be useful when one wants to try out new things or develop something a bit experimental but doesn’t want that to mess up with the progress already made. Using branches is also quite simple, once I got the hang of it. 
+
+For example, if I had a project to which I would like to add new features without compromising the stuff I already have up and running, I could create a new branch for my new feature:
+
+    $ git branch new-feature
+    $ git checkout new-feature
+
+The command **git branch** creates a new branch with a desired name, and the command **git checkout** switches to the new branch. Now I could try out new things without worrying that I will mess up my previous work. When done with developing the new features, I could merge the branches:
+
+    $ git checkout master
+    $ git merge new-feature
+
+The first command switches back to the master branch, and the second command merges the two branches, so that my new changes are also in the master branch.
+
+In my opinion, working with Git and GitHub was fun, and quite soon it already turned out to be very useful. I actually had to create a GitHub repository for the topic modelling project I mentioned earlier. At the moment, I have three GitHub repositories.
 
 ## Final Assignment: Building Webpages using GitHub Pages
 
