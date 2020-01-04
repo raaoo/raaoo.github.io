@@ -50,6 +50,83 @@ For example, this command would convert all uppercase letters to lowercase:
 
     $ tr “[:upper:]” “[:lower:]” 
 
+I also learned about regular expressions, which can be used, for example, to match certain patterns sequences of characters in a search. For example, regular expressions can be used to find words in a certain case when combined with the command **egrep**. Since Finnish cases are subject to vowel harmony, there are usually two possible endings for a case, and regular expressions can be flexibly used to find both variations of a case ending. For instance, the ablative case can be expressed with either _-lta_ or _-ltä_. The following command would search for both of these patterns:
 
+    $ egrep “lt[aä]$”
 
-## Week 4
+The $ sign at the end of the expression signals word boundary, so the command would only find words ending in this pattern. 
+
+I also learned how to pipe commands, like this:
+
+    $ egrep “lt[aä]$” text1.txt | wc -l
+
+Here, the command **egrep** first searches for a pattern in a text file, and then uses the output of that command as an input for the **wc -l** command, which then outputs how many matches were found in the text file.
+
+In my opinion, this week's material was really useful for a linguist. However, I still need a lot of practice with regular expressions.
+
+## Week 4: Advanced Corpus Processing
+
+Like the title implies, the fourth week built upon the topics of the previous week. This included combining more commands with piping which makes more complex operations are lot more streamlined by eliminating intermediate steps, and more regular expressions, thus more struggles for me. The command we focused on during the fourth week was **sed**, which can be used with a lot of options for multiple purposes. **sed** can be used with regular expressions, like **egrep**, but also for many other things. Some examples are listed in the table below.
+
+| Options | Function | Example syntax | What does it  do? |
+| ------- | ------ | ------ | ------ |
+| `s` | Substitute | `sed 's/x/y'` | Replace x with y |
+| `d` | Delete | `sed '/x/d'` | Delete x |
+| `g` | Global | `sed 's/x/y/g'` | Replace every occurrence of x with y |
+| `-E` | Extended Regex | `sed -E 's/[a-z]+d/p` | Enable using extended regular expressions |
+| `-n` | No printing | `sed -n '/x/'` | Suppress printing |
+
+Because **sed** supports so many different functions and extended regular expressions, the commands can get a bit messy pretty soon. I personally had many problems with composing sed commands, trying to remember all possible options and flags, while testing out multiple variations of a regular expression to correctly match a pattern – and just when I thought I had done everything right, I got an error because I had forgot to type a second `'`. 
+
+Here's an example of how intimidating **sed** commands can look like at first:
+
+    $ sed -nE 's/that ([a-z]+d)([ \.,?!:$])/that \1 not\2/gp' test.txt > modified_text.txt
+
+This command does the following:
+* It finds the pattern  _'that ...d'_, e.g. _'that happened'_...
+* ... that is followed by a space, a punctuation mark, or is at the end of a line...
+* ... in a file called test.txt.
+* It substitutes those patterns with _'not ...d', e.g. _'that **not** happened'_
+* .. and saves the modified result to a text file called modified_test.txt.
+* The command uses extended regular expressions,
+* It doesn't print the output and flood the Terminal window masses of text,
+* And it operates globally, i.e. it applies to every occurrence of _'that ...d'_ in a line, not just the first one.
+
+**sed** alone would have been enough for me to handle, but the fourth week also introduced more complex pipelines of corpus processing, like creating frequency lists and n-grams. Luckily, these processes mostly included commands that were introduced in the previous weeks. However, I felt like I needed more examples in order to apply the pipelines myself, without just copying the commands from instructions. 
+
+## Week 5: Scripting and Configuration Files
+
+The fifth week of the course moved into the realm of what I consider actual programming – we were introduced to writing scripts, configuration files, and environment variables. For me, this week was really demanding, and I felt like I needed a lot more practice and examples in order to be able to write scripts myself. One of the problems was of course caused by still struggling with getting **sed** commands and regular expressions right, since these were needed in most of the exercises. However, in the end, after hours and hours of trial and error I was able to create some simple scripts myself, even though they were not as neatly formatted as they could have been, or that could have solved more complex problems. 
+
+I was able to create one simple script myself:
+
+    #!/bin/bash
+    
+    sort $1 |
+    uniq |
+    wc -l
+
+This script takes the first column of a table as input and as output gives how many different data points there are. I created this for my work, since one of the researchers I’m assisting wanted to know how many authors she has listed in a huge Excel-file which contains all her data. The authors are listed in the first column of the file. The number returned by this script tells how many individual authors are featured in the file.
+
+I also learned how to customize my bash prompt (with which I was much more successful than with scripts) and how to change the values of my existing environment variables. 
+
+Overall, I felt kind of discouraged by my own lack of progress, especially since scripts can be so useful in automating processes that would otherwise need typing a lot of commands one by one.
+
+## Week 6: Installing and Running Programs
+
+This week included some topics that I was already kind of familiar with, as well as topics that were completely new for me. For example, installing Python packages with **pip** and using the Python interpreter was something I had done before, since Python was the first programming language I ever encountered. There was a comforting familiarity with typing:
+
+    $ pip install nltk
+    $ python3
+    >>> import nltk
+
+once again. These commands install NLTK ([Natural Language Toolkit](https://www.nltk.org){:target="_blank"}, good stuff) and start the Python interpreter (the change can be seen in the bash prompt, which turns to `>>>`). Then `import`, like the name says, imports NLTK. All Python modules need to be imported first in order to be used. 
+
+In addition these commands, I had also already used **brew** to install software. However, the concept of root user and commands related to that (e.g. **su**, **sudo**) were new to me, as was the concept of a Makefile and the process of creating one myself.
+
+Makefiles turned out to be the problem for me during this week (in addition to some Mac-specific problems with some software…). I think this was mostly due to me struggling with scripting the previous week, so I felt like I didn’t quite grasp the fundamentals.   
+
+## Week 7: Version Control
+
+## Final Assignment: Building Webpages using GitHub Pages
+
