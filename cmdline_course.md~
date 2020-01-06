@@ -4,7 +4,7 @@ layout: default
 
 ## Introduction
 
-On this page, I’ll give a short overview about the course _Command Line Tools for Linguists_, which I took in august term, 2019. The course aims to give a gentle and practical introduction to the UNIX command line environment for absolute beginners, like yours truly. In my studies, I have run into many kinds of programming and I have always felt like I understood nothing, even though I maybe should have. So, taking this course, I wanted to be able to have a basic literacy of UNIX commands, to complete simple tasks myself, and to understand instructions when things go wrong. 
+On this page, I’ll give a short overview about the course _Command Line Tools for Linguists_, which I took in august term, 2019. The course aims to give a gentle and practical introduction to the UNIX command line environment for absolute beginners, like myself. In my studies, I have run into many kinds of programming and I have always felt like I understood nothing, even though I maybe should have. So, taking this course, I wanted to be able to have a basic literacy of UNIX commands, to complete simple tasks myself, and to understand instructions when things go wrong. 
 
 I also thought that this course might give me some confidence in understanding and using Python and R, which I have found useful in some projects.
 
@@ -13,7 +13,7 @@ Below I’ll summarize what I have learned and how I felt about it.
 ## Week 1: Introduction to Command Line Environments
 
 The first week of the course concentrated, first of all, on getting to know what a command line is and how to set it up on the computer. In my case, the set-up was easy, since I’m working on MacOS – I simply needed to open up the Terminal and I was ready to go.<br>
-Secondly, I got to know some commands used for basic navigation, like **whoami, pwd, cd, mkdir, ls, rm**, and **mv**. In my opinion, these commands are a corner stone of working with the command line. In the autumn, I was also doing topic modelling with [MALLET](http://mallet.cs.umass.edu/){:target="_blank"} for another course, and knowing these commands helped me out a lot. MALLET is operated straight through the command line, and making new directories and navigating between multiple directories and subdirectories was essential for the workflow. I felt much more confident in working with MALLET since I knew how to navigate in my environment. For example, I needed to create a new directory for my own data which I used in the topic modelling. The process was a bit like this:
+Secondly, I got to know some commands used for basic navigation, like **whoami, pwd, cd, mkdir, ls, rm**, and **mv**. In my opinion, these commands are a corner stone of working with the command line. In the autumn, I was also doing topic modelling with [MALLET](http://mallet.cs.umass.edu/){:target="_blank"} for another course, and knowing these commands helped me out a lot. MALLET is operated straight through the command line, and making new directories and navigating between multiple directories and subdirectories was essential for the workflow. I felt much more confident in working with MALLET since I knew how to navigate in my environment.For example, I needed to create a new directory for my own data which I used in the topic modelling. The process was a bit like this:
 
     $ pwd      	      	
     ~/mallet-2.0.8

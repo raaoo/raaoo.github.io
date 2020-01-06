@@ -10,7 +10,7 @@ I'm currently working my dream job as a research assistant for [SpaceLaw](https:
 
 ## CV
 
-You can read more about my work experience, skills, and education in my [CV](https://username.github.io/assets/documents/CV.pdf).
+You can read more about my work experience, skills, and education in my [CV](https://raaoo.github.io/assets/documents/CV.pdf){:target="_blank"}.
 
 ## Find me on
 
@@ -63,6 +63,9 @@ firstname.lastname@helsinki.fi
 
 [Topic modelling, British newspapers and identity discourses](https://zenodo.org/record/3594767#.Xgs5oxczaRs){:target="_blank"}<br>
 This was a project I did for the course _Introduction to Methods in Digital Humanities_, autumn 2019. I used topic modelling (MALLET) to investigate how British and European identities were constructed in the British press before the Brexit referendum on June 23, 2016.
+
+[Measuring Language Distance Using Perplexity](https://raaoo.github.io/assets/documents/linguistic_distance.pdf){:target="_blank"}<br>
+This was a group project I did for the course _Linguistics in the Digital Age_. My group used language modelling and perplexity measures to investigate linguistic distance between five closely related Romance languages. I was mainly responsible for the language modelling (Python+NLTK), making visualizations with R, and the LaTeX formatting of our report. 
 
 [Command-line course]( https://github.com/raaoo/cmdline-course){:target="_blank"}<br>
 Tutorial project for the course _Command-line tools for linguists_.
