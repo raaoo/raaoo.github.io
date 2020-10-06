@@ -4,7 +4,11 @@ layout: default
 
 ## Introduction
 
-I'm an MA student in General Linguistics at the University of Helsinki. I hold a BA in General Linguistics with minors in Classics and European Union studies. My main study interests are _language and culture in contact, historical and areal linguistics, discourse analysis_, and _language and power_. I'm also interested in _nation and identity building, intellectual history_, and _linguistic minorities_.
+I'm an MA student in General Linguistics ([Master’s Programme in Linguistic Diversity and Digital Humanities] (https://www.helsinki.fi/en/admissions/degree-programmes/linguistic-diversity-and-digital-humanities-masters-programme){:target="_blank"}) at the University of Helsinki. I hold a BA in General Linguistics with minors in Classics and European Union studies. 
+
+My main study interests are _language and culture in contact, language change, historical and areal linguistics, typology, discourse analysis, and language and power_. I'm also interested in _intellectual history, linguistic minorities, and nation and identity building_.
+
+I’m currently writing my master’s thesis on the lexicalization patterns of perception verbs in the Circum-Baltic Area, combining my interests in areality, contact, and typology. 
 
 I'm currently working my dream job as a research assistant for [SpaceLaw](https://www.helsinki.fi/en/researchgroups/law-governance-and-space){:target="_blank"}.
 
