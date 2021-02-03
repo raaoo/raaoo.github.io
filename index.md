@@ -4,13 +4,12 @@ layout: default
 
 ## Introduction
 
-I'm an MA student in General Linguistics ([Master’s Programme in Linguistic Diversity and Digital Humanities] (https://www.helsinki.fi/en/admissions/degree-programmes/linguistic-diversity-and-digital-humanities-masters-programme){:target="_blank"}) at the University of Helsinki. I hold a BA in General Linguistics with minors in Classics and European Union studies. 
+I'm an MA student in General Linguistics in the [Master’s Programme in Linguistic Diversity and Digital Humanities](https://www.helsinki.fi/en/admissions/degree-programmes/linguistic-diversity-and-digital-humanities-masters-programme){:target="_blank"}) at the University of Helsinki. I hold a BA in General Linguistics with minors in Classics and European Union studies. 
 
-My main study interests are _language and culture in contact, language change, historical and areal linguistics, typology, discourse analysis, and language and power_. I'm also interested in _intellectual history, linguistic minorities, and nation and identity building_.
+My main study interests are _language and culture in contact, language change, historical and areal linguistics_, and _typology_. I'm also interested in _discourse analysis, language and power, intellectual history, linguistic minorities,_ and _nation and identity building_, _methodology_ and _multidisciplinary approaches_.
 
-I’m currently writing my master’s thesis on the lexicalization patterns of perception verbs in the Circum-Baltic Area, combining my interests in areality, contact, and typology. 
+At the moment I’m writing my master’s thesis on the lexicalization patterns of perception verbs in the Circum-Baltic Area, combining my interests in areality, contact, and typology. 
 
-I'm currently working my dream job as a research assistant for [SpaceLaw](https://www.helsinki.fi/en/researchgroups/law-governance-and-space){:target="_blank"}.
 
 ## CV
 
@@ -18,66 +17,21 @@ You can read more about my work experience, skills, and education in my [CV](htt
 
 ## Find me on
 
-[LinkedIn](https://www.linkedin.com/in/oona-kristiina-raatikainen/){:target="_blank"} / [GitHub](https://github.com/raaoo){:target="_blank"} / [Instagram](https://www.instagram.com/linguisticsoutofcontext/){:target="_blank"}
+[LinkedIn](https://www.linkedin.com/in/oona-kristiina-raatikainen/){:target="_blank"} / [Instagram](https://www.instagram.com/linguisticsoutofcontext/){:target="_blank"}
 
 ## Contact me
 
-Center for European Studies<br>
-Siltavuorenpenger 1A (Psychologicum), room 323<br>
-PL 9, 00014 Helsingin Yliopisto
-
 firstname.lastname@helsinki.fi
-
-## Courses I've Taken
-#### Elective courses in Linguistics:
-* [Language Typology](https://courses.helsinki.fi/fi/lda-g3101/125485010){:target="_blank"}
-* [Linguistic Anthropology](https://courses.helsinki.fi/en/lda-d3101/125484965){:target="_blank"}
-* [Sociolinguistics](https://courses.helsinki.fi/fi/lda-g3106/130806664){:target="_blank"}
-* [Language and Gender](https://courses.helsinki.fi/fi/lda-g3113/125485034){:target="_blank"}
-* [Language Contact](https://courses.helsinki.fi/en/lda-g3110/130806547){:target="_blank"}
-* [Language Change](https://courses.helsinki.fi/en/406259/111295742){:target="_blank"}
-* [Uralic Linguistics](https://courses.helsinki.fi/fi/lda-d3113/125484972){:target="_blank"}
-* [Celtic Linguistics](https://courses.helsinki.fi/fi/lda-d3114/130806450){:target="_blank"}
-* [Psycholinguistics and Language Acquisition](https://courses.helsinki.fi/fi/LDA-C5012/130806557){:target="_blank"}
-* [Language Evolution](https://courses.helsinki.fi/en/lda-g3111/125484193){:target="_blank"}
-* [Cognitive Linguistics](https://courses.helsinki.fi/en/402998/114676255){:target="_blank"}
-* [Writing Systems](https://courses.helsinki.fi/en/402996/111312138){:target="_blank"}
-* [Statistics for Linguists](https://courses.helsinki.fi/en/406375/116930570){:target="_blank"}
-
-#### Elective courses in European studies:
-* [Imagining Europe: Mental Maps and Imagology](https://courses.helsinki.fi/en/ens-h321/125237525){:target="_blank"}
-* [Minorities in the Nordic Region](https://courses.helsinki.fi/en/ens-339/121296073){:target="_blank"}
-* [Europe of Multiple Regions](https://courses.helsinki.fi/en/402223/116232733){:target="_blank"}
-* [Europe in a Global Context](https://courses.helsinki.fi/en/a402224/117382102){:target="_blank"}
-* [European Integration History](https://courses.helsinki.fi/en/ens-322/121347310){:target="_blank"}
-
-### Upcoming courses in spring 2020
-#### Linguistics<br>
-* [Historical Linguistics](https://courses.helsinki.fi/fi/LDA-G3109/130804909){:target="_blank"}
-* [Indo-European Linguistics](https://courses.helsinki.fi/fi/lda-d3111/130806543){:target="_blank"}
-* [Language Geography and Ethnohistory of Northern Eurasia](https://courses.helsinki.fi/fi/KIM-AA304/130418780){:target="_blank"}
-* [Studying Language Contact from Literary Sources](https://courses.helsinki.fi/en/kim-ae354/130439255){:target="_blank"}
-
-#### European Studies:<br>
-* [Ideas, Ideologies and Identities in Europe](https://courses.helsinki.fi/en/ens-302/130688083){:target="_blank"}
-* [Futures of the Past: Historical Cultures and Classicism in the European World](https://courses.helsinki.fi/en/ens-326/130702584){:target="_blank"}
 
 
 ## Projects
-
-[Topic modelling, British newspapers and identity discourses](https://zenodo.org/record/3594767#.Xgs5oxczaRs){:target="_blank"}<br>
-This was a project I did for the course _Introduction to Methods in Digital Humanities_, autumn 2019. I used topic modelling (MALLET) to investigate how British and European identities were constructed in the British press before the Brexit referendum on June 23, 2016.
-
 [Measuring Language Distance Using Perplexity](https://raaoo.github.io/assets/documents/linguistic_distance.pdf){:target="_blank"}<br>
 This was a group project I did for the course _Linguistics in the Digital Age_. My group used language modelling and perplexity measures to investigate linguistic distance between five closely related Romance languages. I was mainly responsible for the language modelling (Python+NLTK), making visualizations with R, and the LaTeX formatting of our report. 
 
-[Command-line course]( https://github.com/raaoo/cmdline-course){:target="_blank"}<br>
-Tutorial project for the course _Command-line tools for linguists_.
-
-[Webpage for the 2nd Student Conference of the MA Programme Linguistic Diversity in the Digital Age]( https://blogs.helsinki.fi/lingda-conference/){:target="_blank"}<br>
+[Webpage for the 2nd Student Conference of the MA Programme Linguistic Diversity in the Digital Age](https://blogs.helsinki.fi/lingda-conference/esimerkkisivu/){:target="_blank"}<br>
 When I was working as a conference coordinator for the _LingDA Student Conference_, I was responsible for creating new visual materials for the conference website and updating the site.
 
-[Schedule for the 45 Annual Conference of Linguistics/Kielitieteen päivät XLV]( https://blogs.helsinki.fi/kielitieteenpaivat2018/files/2018/05/Ohjelmakartta_11.pdf){:target="_blank"}<br>
+[Schedule for the 45 Annual Conference of Linguistics/Kielitieteen päivät XLV](https://blogs.helsinki.fi/kielitieteenpaivat2018/files/2018/05/Ohjelmakartta_11.pdf){:target="_blank"}<br>
 Scheduling and planning the programme was my main responsibility when I was working as a conference assistant for the _45 Annual Conference of Linguistics_, held in Helsinki in 2018. Planning the schedule was quite a puzzle, since the conference was organized in three locations and had over 100 presentations and workshops. When I was designing the schedule, I tried to make it as clear as possible while still being visually pleasing.
 
 ## Misc. 

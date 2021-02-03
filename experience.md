@@ -2,6 +2,35 @@
 layout: default
 ---
 
+## Education
+
+### Master of Arts. Master’s Programme in Linguistic Diversity and Digital Humanities. 
+#### University of Helsinki. 2018-2021
+
+### Bachelor of Arts. General Linguistics. 
+#### University of Helsinki. 2014–2018.
+
+I’m currently a student in the Master’s Programme in Linguistic Diversity and Digital Humanities, majoring in _General Linguistics_. My main study interests are _language and culture in contact, language change, historical and areal linguistics_, and _typology_. I'm also interested in _discourse analysis, language and power, intellectual history, linguistic minorities,_ and _nation and identity building_.
+
+I started writing my thesis on lexicalization patterns of perception verbs in the Circum-Baltic Area in the autumn 2020. I’m both mortified and stoked at the same time.
+
+I’m also completing a minor study module in _Digital Humanities_, concentrating on methodology courses. In these studies, I have done two quite interesting projects with topic modelling (Mallet and gensim), looking at British newspapers, Brexit, and identity discourses. This webpage is also a result of DH studies. 
+
+I finished my Bachelor’s degree in General Linguistics in 2018. For minor studies, I completed modules in in _Classics_ (Latin and Roman literature, Greek language and literature, 25 ECTS each) and _European Union studies_ (25 ECTS). I wrote my Bachelor’s thesis on sound symbolism.
+
+Throughout my higher education, I have studied various languages at the Language Center of the university. I completed a French language study module (20 ECTS) in 2018, otherwise I have continued studying German, Swedish, and Japanese. In January 2020 I started learning Italian. (This turned out to be very useful, since one of my tasks as a research assistant for SpaceLaw-project included cross-checking footnote references and the absolute majority of the sources were written in Italian. I now have a passive command of vocabulary themed around Roman architecture: _il pluteo, la bocca della cisterna, la semicolonna,_ e così via. Also, luckily, as a linguist I’m maybe more comfortable with reading a language I don’t really understand than most people are.)
+
+
+### Matriculation Examination & Upper Secondary Education. Languages and internationality emphasis study programme.
+#### Itäkeskuksen lukio. 2009–2012.
+
+I completed my upper secondary education in 2009–2012 at Itäkeskus high school (currently: Helsingin kielilukio). I took matriculation exams in _Finnish language and literature, English (advanced curriculum), Swedish (advanced curriculum), French, German, Latin, philosophy_, and _ethics_. I also took elective courses in Japanese, Mandarin Chinese, and Russian, which I had to give up due to clashes in course schedules. To date, I’m still a bit sour about that. 
+
+
+
+
+
+
 ## Introduction
 
 On this page, I’ll give a short overview about the course _Command Line Tools for Linguists_, which I took in august term, 2019. The course aims to give a gentle and practical introduction to the UNIX command line environment for absolute beginners, like yours truly. In my studies, I have run into many kinds of programming and I have always felt like I understood nothing, even though I maybe should have. So, taking this course, I wanted to be able to have a basic literacy of UNIX commands, to complete simple tasks myself, and to understand instructions when things go wrong. 
